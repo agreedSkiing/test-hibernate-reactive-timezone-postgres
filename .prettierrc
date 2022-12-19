@@ -1,0 +1,16 @@
+{
+  "endOfLine": "lf",
+  "bracketSameLine": false,
+  "useTabs": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "htmlWhitespaceSensitivity": "ignore",
+  "xmlWhitespaceSensitivity": "ignore",
+  "plugins": [
+    "@prettier/plugin-xml",
+    "prettier-plugin-java",
+    "prettier-plugin-properties",
+    "prettier-plugin-sql"
+  ]
+}
