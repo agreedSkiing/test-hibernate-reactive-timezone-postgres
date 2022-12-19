@@ -14,7 +14,7 @@ bash launch.sh
 
 ## Running the application tests
 
-You can run this applications test with the command below:
+Run this applications test with the command below for a set test flow:
 
 ```bash script
 bash integration-test.sh

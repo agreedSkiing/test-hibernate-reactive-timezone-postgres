@@ -12,6 +12,7 @@ $CONATINER_RUNNER run --name postgres -d \
 -e POSTGRES_DB=quarkus \
 postgres:13.9-alpine3.17
 
-mvn clean package verify -Dquarkus.devservices.enabled=false
+mvn clean package -Duser.timezone=Etc/GMT-1
+mvn verify -DskipUnitTests=true
 $CONATINER_RUNNER stop postgres
 $CONATINER_RUNNER rm postgres

@@ -2,19 +2,16 @@ package org.acme.endpoints.time;
 
 import static org.hamcrest.Matchers.is;
 
-import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.common.http.TestHTTPEndpoint;
-import io.quarkus.test.junit.QuarkusIntegrationTest;
+import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
 import java.net.HttpURLConnection;
 import org.acme.endpoints.Time;
-import org.acme.test.resources.GmtPlusOne;
 import org.junit.jupiter.api.Test;
 
-@QuarkusIntegrationTest
+@QuarkusTest
 @TestHTTPEndpoint(Time.class)
-@QuarkusTestResource(value = GmtPlusOne.class, restrictToAnnotatedClass = true)
-public class GmtIT {
+public class TimeTest {
 
   @Test
   public void base_path_is_always_the_same() {
@@ -35,7 +32,7 @@ public class GmtIT {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T18:39:20Z"))
+      .body("withoutTimezoneField", is("2022-12-18T19:39:20Z"))
       .body("withTimezoneField", is("2022-12-18T18:39:20Z"))
       .body("withTimezoneGmt2Field", is("2022-12-18T17:39:20Z"));
   }
@@ -47,7 +44,7 @@ public class GmtIT {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T19:39:20"))
+      .body("withoutTimezoneField", is("2022-12-18T20:39:20"))
       .body("withTimezoneField", is("2022-12-18T19:39:20"))
       .body("withTimezoneGmt2Field", is("2022-12-18T18:39:20"));
   }
@@ -59,7 +56,7 @@ public class GmtIT {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T19:39:20+01:00"))
+      .body("withoutTimezoneField", is("2022-12-18T20:39:20+01:00"))
       .body("withTimezoneField", is("2022-12-18T19:39:20+01:00"))
       .body("withTimezoneGmt2Field", is("2022-12-18T18:39:20+01:00"));
   }
@@ -71,7 +68,7 @@ public class GmtIT {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T19:39:20+01:00[Etc/GMT-1]"))
+      .body("withoutTimezoneField", is("2022-12-18T20:39:20+01:00[Etc/GMT-1]"))
       .body("withTimezoneField", is("2022-12-18T19:39:20+01:00[Etc/GMT-1]"))
       .body(
         "withTimezoneGmt2Field",
