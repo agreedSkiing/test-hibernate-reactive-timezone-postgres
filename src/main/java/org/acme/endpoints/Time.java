@@ -51,39 +51,9 @@ public class Time {
   }
 
   @GET
-  @Path("instants")
-  public Uni<Response> instants() {
-    return repo.getAsInstants().map(this::mapToOutput);
-  }
-
-  @GET
-  @Path("localdatetimes")
-  public Uni<Response> localdatetimes() {
-    return repo.getAsLocalDateTimes().map(this::mapToOutput);
-  }
-
-  @GET
   @Path("offsetdatetimes")
   public Uni<Response> offsetdatetimes() {
     return repo.getAsOffsetDateTimes().map(this::mapToOutput);
-  }
-
-  @GET
-  @Path("zoneddatetimes")
-  public Uni<Response> zoneddatetimes() {
-    return repo.getAsZonedDateTimes().map(this::mapToOutput);
-  }
-
-  @POST
-  @Path("instants")
-  public Uni<Response> createInstants() {
-    return repo.createInstants().map(this::mapToOutput);
-  }
-
-  @POST
-  @Path("localdatetimes")
-  public Uni<Response> createLocaldatetimes() {
-    return repo.createLocalDateTimes().map(this::mapToOutput);
   }
 
   @POST
@@ -92,49 +62,8 @@ public class Time {
     return repo.createOffsetDateTimes().map(this::mapToOutput);
   }
 
-  @POST
-  @Path("zoneddatetimes")
-  public Uni<Response> createZoneddatetimes() {
-    return repo.createZonedDateTimes().map(this::mapToOutput);
-  }
-
-  Response mapToOutput(org.acme.entities.Instant entity) {
-    return Response
-      .ok(
-        new Builder()
-          .withTimezoneField(entity.withTimeZone.toString())
-          .withTimezoneGmt2Field(entity.withTimeZoneGmt2.toString())
-          .withoutTimezoneField(entity.noTimeZone.toString())
-          .build()
-      )
-      .build();
-  }
-
-  Response mapToOutput(org.acme.entities.LocalDateTime entity) {
-    return Response
-      .ok(
-        new Builder()
-          .withTimezoneField(entity.withTimeZone.toString())
-          .withTimezoneGmt2Field(entity.withTimeZoneGmt2.toString())
-          .withoutTimezoneField(entity.noTimeZone.toString())
-          .build()
-      )
-      .build();
-  }
 
   Response mapToOutput(org.acme.entities.OffsetDateTime entity) {
-    return Response
-      .ok(
-        new Builder()
-          .withTimezoneField(entity.withTimeZone.toString())
-          .withTimezoneGmt2Field(entity.withTimeZoneGmt2.toString())
-          .withoutTimezoneField(entity.noTimeZone.toString())
-          .build()
-      )
-      .build();
-  }
-
-  Response mapToOutput(org.acme.entities.ZonedDateTime entity) {
     return Response
       .ok(
         new Builder()
