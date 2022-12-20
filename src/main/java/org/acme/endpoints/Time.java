@@ -74,6 +74,30 @@ public class Time {
     return repo.getAsZonedDateTimes().map(this::mapToOutput);
   }
 
+  @POST
+  @Path("instants")
+  public Uni<Response> createInstants() {
+    return repo.createInstants().map(this::mapToOutput);
+  }
+
+  @POST
+  @Path("localdatetimes")
+  public Uni<Response> createLocaldatetimes() {
+    return repo.createLocalDateTimes().map(this::mapToOutput);
+  }
+
+  @POST
+  @Path("offsetdatetimes")
+  public Uni<Response> createOffsetdatetimes() {
+    return repo.createOffsetDateTimes().map(this::mapToOutput);
+  }
+
+  @POST
+  @Path("zoneddatetimes")
+  public Uni<Response> createZoneddatetimes() {
+    return repo.createZonedDateTimes().map(this::mapToOutput);
+  }
+
   Response mapToOutput(org.acme.entities.Instant entity) {
     return Response
       .ok(
