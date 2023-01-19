@@ -1,0 +1,1908 @@
+log.ts:304  INFO [attempt 1] Invoking resolveAuthority(wsl)
+log.ts:304  INFO [attempt 1] resolveAuthority(wsl) returned '127.0.0.1:55055' after 244 ms
+log.ts:310  WARN [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+log.ts:310  WARN [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+TMScopeRegistry.ts:47 Overwriting grammar scope name to file mapping for scope source.yaml.
+Old grammar file: file:///c%3A/fkapps/Microsoft%20VS%20Code/resources/app/extensions/yaml/syntaxes/yaml.tmLanguage.json.
+New grammar file: vscode-remote://wsl%2Bubuntu/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/syntaxes/yaml.tmLanguage.json
+register @ TMScopeRegistry.ts:47
+L @ TMGrammarFactory.ts:73
+H @ abstractTextMateService.ts:240
+await in H (async)
+createTokenizationSupport @ abstractTextMateService.ts:264
+i @ tokenizationRegistry.ts:146
+resolve @ tokenizationRegistry.ts:140
+getOrCreate @ tokenizationRegistry.ts:72
+(anonymous) @ abstractTextMateService.ts:165
+d @ extensionsRegistry.ts:144
+acceptUsers @ extensionsRegistry.ts:135
+Rb @ abstractExtensionService.ts:1287
+Pb @ abstractExtensionService.ts:1220
+Ac @ electronExtensionService.ts:597
+await in Ac (async)
+Yb @ electronExtensionService.ts:559
+await in Yb (async)
+processTicksAndRejections @ node:internal/process/task_queues:96
+await in processTicksAndRejections (async)
+processTicksAndRejections @ node:internal/process/task_queues:96
+await in processTicksAndRejections (async)
+wb @ abstractExtensionService.ts:777
+await in wb (async)
+(anonymous) @ electronExtensionService.ts:115
+requestIdleCallback (async)
+e.runWhenIdle @ async.ts:1163
+(anonymous) @ electronExtensionService.ts:114
+Promise.then (async)
+jc @ electronExtensionService.ts:112
+E @ sandboxExtensionService.ts:12
+j @ instantiationService.ts:119
+t @ instantiationService.ts:245
+s @ instantiationService.ts:234
+r @ instantiationService.ts:223
+q @ instantiationService.ts:163
+m @ instantiationService.ts:147
+get @ instantiationService.ts:61
+eb @ layout.ts:233
+(anonymous) @ workbench.ts:152
+invokeFunction @ instantiationService.ts:68
+startup @ workbench.ts:144
+open @ desktop.main.ts:120
+await in open (async)
+le @ desktop.main.ts:386
+d.load.configureDeveloperSettings @ workbench.js:2801
+(anonymous) @ workbench.js:2673
+a._invokeFactory @ workbench.js:1460
+a.complete @ workbench.js:1470
+a._onModuleComplete @ workbench.js:2100
+a._onModuleComplete @ workbench.js:2112
+a._resolve @ workbench.js:2057
+a.defineModule @ workbench.js:1700
+h @ workbench.js:2150
+define @ workbench.js:2226
+(anonymous) @ workbench.common.main.ts:145
+(anonymous) @ fake:1
+log.ts:304  INFO [perf] Render performance baseline is 37ms
+console.ts:137 [Extension Host] Loading json config for redhat.vscode-microprofile
+console.ts:137 [Extension Host] Updating vscode-redhat-telemetry configuration from https://raw.githubusercontent.com/redhat-developer/vscode-redhat-telemetry/main/src/config/telemetry-config.json
+console.ts:137 [Extension Host] Loading json config for redhat.vscode-yaml
+console.ts:137 [Extension Host] Updating vscode-redhat-telemetry configuration from https://raw.githubusercontent.com/redhat-developer/vscode-redhat-telemetry/main/src/config/telemetry-config.json
+log.ts:316   ERR [Extension Host] Failed to load local configuration: Request failed with status code 400
+console.ts:137 [Extension Host] Failed to load local configuration: Request failed with status code 400
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+log.ts:316   ERR [Extension Host] Failed to load local configuration: Request failed with status code 400
+console.ts:137 [Extension Host] Failed to load local configuration: Request failed with status code 400
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: Error: Cannot find module '../config/telemetry-config.json'
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] stack trace: Error: Cannot find module '../config/telemetry-config.json'
+	at t (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:15403)
+	at c.<anonymous> (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:7775)
+	at Generator.next (<anonymous>)
+	at /home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5474
+	at new Promise (<anonymous>)
+	at i (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5219)
+	at c.getEmbeddedConfiguration (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:7659)
+	at c.<anonymous> (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:6706)
+	at Generator.throw (<anonymous>)
+	at s (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5327)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Cannot find module '../config/telemetry-config.json'
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Cannot find module '../config/telemetry-config.json'
+	at t (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:15403)
+	at c.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:7775)
+	at Generator.next (<anonymous>)
+	at vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5474
+	at new Promise (<anonymous>)
+	at i (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5219)
+	at c.getEmbeddedConfiguration (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:7659)
+	at c.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:6706)
+	at Generator.throw (<anonymous>)
+	at s (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5327)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: Error: Cannot find module '../config/telemetry-config.json'
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] stack trace: Error: Cannot find module '../config/telemetry-config.json'
+	at t (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:15403)
+	at c.<anonymous> (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:7775)
+	at Generator.next (<anonymous>)
+	at /home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5474
+	at new Promise (<anonymous>)
+	at i (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5219)
+	at c.getEmbeddedConfiguration (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:7659)
+	at c.<anonymous> (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:6706)
+	at Generator.throw (<anonymous>)
+	at s (/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5327)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Cannot find module '../config/telemetry-config.json'
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Cannot find module '../config/telemetry-config.json'
+	at t (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:15403)
+	at c.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:7775)
+	at Generator.next (<anonymous>)
+	at vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5474
+	at new Promise (<anonymous>)
+	at i (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5219)
+	at c.getEmbeddedConfiguration (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:7659)
+	at c.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:6706)
+	at Generator.throw (<anonymous>)
+	at s (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-microprofile-0.6.0/dist/extension.js:2:5327)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: Error: Cannot find module '../config/telemetry-config.json'
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] stack trace: Error: Cannot find module '../config/telemetry-config.json'
+	at t (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:15445)
+	at c.<anonymous> (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:7795)
+	at Generator.next (<anonymous>)
+	at /home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5490
+	at new Promise (<anonymous>)
+	at i (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5235)
+	at c.getEmbeddedConfiguration (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:7678)
+	at c.<anonymous> (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:6725)
+	at Generator.throw (<anonymous>)
+	at s (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5343)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Cannot find module '../config/telemetry-config.json'
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Cannot find module '../config/telemetry-config.json'
+	at t (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:15445)
+	at c.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:7795)
+	at Generator.next (<anonymous>)
+	at vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5490
+	at new Promise (<anonymous>)
+	at i (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5235)
+	at c.getEmbeddedConfiguration (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:7678)
+	at c.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:6725)
+	at Generator.throw (<anonymous>)
+	at s (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5343)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] rejected promise not handled within 1 second: Error: Cannot find module '../config/telemetry-config.json'
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+console.ts:137 [Extension Host] stack trace: Error: Cannot find module '../config/telemetry-config.json'
+	at t (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:15445)
+	at c.<anonymous> (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:7795)
+	at Generator.next (<anonymous>)
+	at /home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5490
+	at new Promise (<anonymous>)
+	at i (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5235)
+	at c.getEmbeddedConfiguration (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:7678)
+	at c.<anonymous> (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:6725)
+	at Generator.throw (<anonymous>)
+	at s (/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5343)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+E @ console.ts:137
+$logExtensionHostMessage @ mainThreadConsole.ts:39
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Cannot find module '../config/telemetry-config.json'
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Cannot find module '../config/telemetry-config.json'
+	at t (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:15445)
+	at c.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:7795)
+	at Generator.next (<anonymous>)
+	at vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5490
+	at new Promise (<anonymous>)
+	at i (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5235)
+	at c.getEmbeddedConfiguration (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:7678)
+	at c.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:6725)
+	at Generator.throw (<anonymous>)
+	at s (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.vscode-yaml-1.11.0/dist/extension.js:2:5343)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+[...]
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:79 [[object Object]]Header must provide a Content-Length property.
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:79
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
+mainThreadExtensionService.ts:80 Error: Header must provide a Content-Length property.
+	at p.onData (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059640)
+	at Socket.<anonymous> (vscode-file://vscode-app/home/eriase/.vscode-server/extensions/redhat.java-1.14.0/dist/extension.js:2:1059361)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+$onExtensionRuntimeError @ mainThreadExtensionService.ts:80
+N @ rpcProtocol.ts:455
+M @ rpcProtocol.ts:440
+H @ rpcProtocol.ts:370
+G @ rpcProtocol.ts:296
+(anonymous) @ rpcProtocol.ts:161
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+fire @ ipc.net.ts:646
+y @ ipc.net.ts:988
+(anonymous) @ ipc.net.ts:852
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+acceptChunk @ ipc.net.ts:390
+(anonymous) @ ipc.net.ts:346
+(anonymous) @ browserSocketFactory.ts:230
+invoke @ event.ts:692
+deliver @ event.ts:899
+fire @ event.ts:860
+S.i.onload @ browserSocketFactory.ts:91
