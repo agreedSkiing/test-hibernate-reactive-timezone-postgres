@@ -11,6 +11,7 @@
     "@prettier/plugin-xml",
     "prettier-plugin-java",
     "prettier-plugin-properties",
-    "prettier-plugin-sql"
+    "prettier-plugin-sql",
+    "prettier-plugin-sh"
   ]
 }

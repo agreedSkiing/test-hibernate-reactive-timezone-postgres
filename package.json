@@ -1,9 +1,11 @@
 {
-	"dependencies": {
-		"@prettier/plugin-xml": "^2.2.0",
-		"prettier": "^2.8.1",
-		"prettier-plugin-java": "^2.0.0",
-		"prettier-plugin-properties": "^0.2.0",
-		"prettier-plugin-sql": "^0.12.1"
-	}
+  "devDependencies": {
+    "@prettier/plugin-xml": "^2.2.0",
+    "prettier": "^2.8.1",
+    "prettier-plugin-java": "^2.0.0",
+    "prettier-plugin-properties": "^0.2.0",
+    "prettier-plugin-sh": "^0.12.8",
+    "prettier-plugin-sql": "^0.12.1",
+    "pretty-quick": "^3.1.3"
+  }
 }

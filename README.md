@@ -10,8 +10,6 @@ You can run your application in dev mode that enables live coding using:
 bash launch.sh
 ```
 
-> **_NOTE:_** Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
-
 ## Running the application tests
 
 Run this applications test with the command below for a set test flow:
@@ -25,14 +23,15 @@ bash integration-test.sh
 Formatting is done by prettier and its plugins:
 
 ```bash script
-npm install; npx prettier --write .
+npm install \
+  && npx prettier --write .
 ```
 
 ## Reason for project
 
 This project was created to test the connection time to postgres database with Etc/GMT-1 time zone (GMT+1).
 
-Utc.java test passes as expected but when GmtPlusOne.java is active none pass
+[UtcIT.java] and [TimeTest.java] (which uses `test.quarkus.hibernate-orm.jdbc.timezone = UTC`) test passes, but when [GmtIT.java] runs it fails because of a weird conversion error?
 
 ### Database looks
 
@@ -60,3 +59,7 @@ c7b596f783c9:/# date
 Mon Dec 19 07:33:42 UTC 2022
 c7b596f783c9:/#
 ```
+
+[utcit.java]: ./src/test/java/org/acme/endpoints/time/UtcIT.java
+[timetest.java]: ./src/test/java/org/acme/endpoints/time/TimeTest.java
+[gmtit.java]: ./src/test/java/org/acme/endpoints/time/GmtIT.java

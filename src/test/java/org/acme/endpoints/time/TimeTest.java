@@ -1,12 +1,11 @@
 package org.acme.endpoints.time;
 
-import static org.hamcrest.Matchers.is;
-
 import io.quarkus.test.common.http.TestHTTPEndpoint;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
 import java.net.HttpURLConnection;
 import org.acme.endpoints.Time;
+import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
 @QuarkusTest
@@ -20,9 +19,14 @@ public class TimeTest {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T19:39:20"))
-      .body("withTimezoneField", is("2022-12-18T19:39:20+01:00"))
-      .body("withTimezoneGmt2Field", is("2022-12-18T17:39:20Z"));
+      .body(
+        "withoutTimezoneField",
+        Matchers.is("2022-12-18T19:39:20"),
+        "withTimezoneField",
+        Matchers.is("2022-12-18T19:39:20+01:00"),
+        "withTimezoneGmt2Field",
+        Matchers.is("2022-12-18T17:39:20Z")
+      );
   }
 
   @Test
@@ -32,9 +36,14 @@ public class TimeTest {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T19:39:20Z"))
-      .body("withTimezoneField", is("2022-12-18T18:39:20Z"))
-      .body("withTimezoneGmt2Field", is("2022-12-18T17:39:20Z"));
+      .body(
+        "withoutTimezoneField",
+        Matchers.is("2022-12-18T19:39:20Z"),
+        "withTimezoneField",
+        Matchers.is("2022-12-18T18:39:20Z"),
+        "withTimezoneGmt2Field",
+        Matchers.is("2022-12-18T17:39:20Z")
+      );
   }
 
   @Test
@@ -44,9 +53,14 @@ public class TimeTest {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T20:39:20"))
-      .body("withTimezoneField", is("2022-12-18T19:39:20"))
-      .body("withTimezoneGmt2Field", is("2022-12-18T18:39:20"));
+      .body(
+        "withoutTimezoneField",
+        Matchers.is("2022-12-18T20:39:20"),
+        "withTimezoneField",
+        Matchers.is("2022-12-18T19:39:20"),
+        "withTimezoneGmt2Field",
+        Matchers.is("2022-12-18T18:39:20")
+      );
   }
 
   @Test
@@ -56,9 +70,14 @@ public class TimeTest {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T20:39:20+01:00"))
-      .body("withTimezoneField", is("2022-12-18T19:39:20+01:00"))
-      .body("withTimezoneGmt2Field", is("2022-12-18T18:39:20+01:00"));
+      .body(
+        "withoutTimezoneField",
+        Matchers.is("2022-12-18T20:39:20+01:00"),
+        "withTimezoneField",
+        Matchers.is("2022-12-18T19:39:20+01:00"),
+        "withTimezoneGmt2Field",
+        Matchers.is("2022-12-18T18:39:20+01:00")
+      );
   }
 
   @Test
@@ -68,11 +87,13 @@ public class TimeTest {
       .then()
       .statusCode(HttpURLConnection.HTTP_OK)
       .assertThat()
-      .body("withoutTimezoneField", is("2022-12-18T20:39:20+01:00[Etc/GMT-1]"))
-      .body("withTimezoneField", is("2022-12-18T19:39:20+01:00[Etc/GMT-1]"))
       .body(
+        "withoutTimezoneField",
+        Matchers.is("2022-12-18T20:39:20+01:00[Etc/GMT-1]"),
+        "withTimezoneField",
+        Matchers.is("2022-12-18T19:39:20+01:00[Etc/GMT-1]"),
         "withTimezoneGmt2Field",
-        is("2022-12-18T18:39:20+01:00[Etc/GMT-1]")
+        Matchers.is("2022-12-18T18:39:20+01:00[Etc/GMT-1]")
       );
   }
 }
