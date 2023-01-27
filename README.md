@@ -33,7 +33,7 @@ This project was created to test the connection time to postgres database with E
 
 [UtcIT.java] and [TimeTest.java] (which uses `test.quarkus.hibernate-orm.jdbc.timezone = UTC`) test passes, but when [GmtIT.java] runs it fails because of a weird conversion error?
 
-And then an extra test class [GmtPodUtcDbTest.java] which fails in both Hibernate Reactive and the base Hibernate Orm because of an unkown weird reason... quting my comment from my other repo
+And then an extra test class [GmtPodUtcDbTest.java] which fails in both Hibernate Reactive and the base Hibernate Orm because of an unkown weird reason... quoting my comment from my other repo
 
 > One test fails [GmtPodUtcDbTest.java] which fails in both here with base Hibernate Orm and Hibernate Reactive because of an unkown weird conversion reason when the database connection has UTC specified and the test class uses QuarkusTestResourceLifecycleManager [GmtPlusOne.java] which assigns `user.timezone=Etc/GMT-1` through a quarkus test resource, which confuses me since it should produce the same results as [TimeTest.java] which when run throught [integration-test.sh] launches the mvn command `mvn clean package -Duser.timezone=Etc/GMT-1`.
 
